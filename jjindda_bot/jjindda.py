@@ -1,7 +1,7 @@
 import discord, random
 from discord import Client
 
-token = "ODI2NjIzNjE5MDIyNDU0ODE0.YGPLPA.9c0_q6Wcmws3-aMDI7CqExH6J0w"
+token = "토근값"
 intents = discord.Intents.default()
 client: Client = discord.Client(intents=intents)
 
