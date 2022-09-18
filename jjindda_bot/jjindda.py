@@ -31,8 +31,6 @@ async def on_message(message):
         await message.channel.send("나.. 애니.. 보고.. 있..있었...어...")
     if message.content.startswith("$명령어"):
         await message.channel.send("'찐따야 급식표', '찐따야 n반시간표', '찐따야 (심심해, 빵사와, 안녕 등등)', '애니추천해줘'")
-    if message.content.startswith("찐따야 나 심심해"):
-        await message.channel.send("우..우리개발자랑 놀아... insta: p_q.d_23 디스코드: NANONANDFLASH#1066")
     if message.content.startswith("찐따야 빵사와"):
         await message.channel.send("맨.. 맨..날먹던... 크림...빵 맞..지..?")
     elif message.content.startswith("이거 아니잖아"):
