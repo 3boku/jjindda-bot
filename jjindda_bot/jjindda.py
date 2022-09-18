@@ -35,16 +35,8 @@ async def on_message(message):
         await message.channel.send("맨.. 맨..날먹던... 크림...빵 맞..지..?")
     elif message.content.startswith("이거 아니잖아"):
         await message.channel.send("잘못했어 떄리지마ㅜㅜㅜ")
-    if message.content.startswith("찐따야 너 모델이 누구야"):
-        await message.channel.send("이민국입니다. 고죠#1592")
     if message.content.startswith("찐따야 고마워"):
         await message.channel.send("으..응..(날 좋아하나?)")
-    if message.content.startswith("찐따야 대화시작"):
-        await message.channel.send("준혁아 나랑 사귀자 ")
-    if message.content.startswith("ㄲㅈ ㅂㅅㅇ"):
-        await message.channel.send("좆까고 있네")
-    if message.content.startswith("어? 씨빨이?"):
-        await message.channel.send("ㅇ ㅇㅉ")
 
 
 #사진나오게
