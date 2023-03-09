@@ -10,7 +10,6 @@ client: Client = discord.Client(intents=intents)
 async def on_ready():
     print(client.user.id)
     print("작동준비완료!")
-    print("NANONANDFLASH#1066")
     game = discord.Game("$명령어치면 명령어 볼수있음")
     await client.change_presence(status=discord.Status.online, activity=game)
 
